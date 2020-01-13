@@ -1,0 +1,170 @@
+.financial-health {
+  min-height: 80vh;
+  margin: 20px 20px 20px 20px;
+  padding: 20px;
+  font-family: Montserrat;
+}
+.financial-health .fh-row-gs .heading1 {
+  font-size: 26px;
+  color: #62635d;
+}
+.financial-health .fh-row-gs .heading2 {
+  font-size: 16px;
+  color: #62635d;
+}
+.fh-row-gs .q1-ul {
+  list-style: none;
+  padding: 0;
+}
+.fh-row-gs .q1-ul li {
+  font-size: 16px;
+  font-weight: 700;
+}
+.financial-health .q1 {
+  margin: 15px 0 50px 0;
+}
+.financial-health .q1 .radio-container {
+  width: 37%;
+  float: left;
+  margin: 0 70px 0 0;
+  cursor: pointer;
+  height: 40px;
+  background: #cccccc;
+  border-radius: 20px;
+  border: 2px solid gray;
+}
+.financial-health .q1 .radio-container:last-child {
+  margin: 0 0 0 0;
+}
+.financial-health .q1 input[type="radio"]:checked,
+.financial-health .q1 input[type="radio"]:not(:checked) {
+  position: absolute;
+  left: -9999px;
+}
+.financial-health .q1 input[type="radio"]:checked + label,
+.financial-health .q1 input[type="radio"]:not(:checked) + label {
+  position: relative;
+  padding-left: 40px;
+  cursor: pointer;
+  line-height: 18px;
+  font-size: 16px;
+  font-weight: 500;
+  display: inline-block;
+  color: white;
+  margin: 9px 0 0 30px;
+}
+
+.financial-health .q1 input[type="radio"]:checked + label:before,
+.financial-health .q1 input[type="radio"]:not(:checked) + label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 18px;
+  height: 18px;
+  border: 1px solid gray;
+  border-radius: 100%;
+  background: #fff;
+}
+
+.financial-health .q1 input[type="radio"]:checked + label:after,
+.financial-health .q1 input[type="radio"]:not(:checked) + label:after {
+  content: "";
+  width: 12px;
+  height: 12px;
+  background: gray;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.financial-health .q1 input[type="radio"]:not(:checked) + label:after {
+  opacity: 0;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+
+.financial-health .q1 input[type="radio"]:checked + label:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.financial-health .col2 p.heading3 {
+  width: 65%;
+  font-size: 17px;
+  font-weight: 700;
+}
+.financial-health .col3 p.heading3 {
+  width: 65%;
+  font-size: 17px;
+  font-weight: 700;
+}
+.financial-health .q3 .radio-container {
+  float: none;
+  width: 37%;
+  margin: 0 0 10px 0;
+}
+.financial-health .note-col p.note {
+  background: #ffb759;
+  width: 58%;
+  font-size: 14px;
+  padding: 20px 30px 30px 20px;
+  font-size: 500;
+  border-radius: 10px;
+  color: white;
+}
+
+.financial-health .input {
+  margin: 0 0 22px 0;
+}
+.financial-health .input .input-lbl {
+  font-size: 17px;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+  color: #62635d;
+}
+.financial-health .input input {
+  width: 37%;
+  height: 40px;
+  background: #cccccc;
+  border-radius: 20px;
+  border: 2px solid gray;
+  outline: none;
+  padding: 0 20px;
+  font-weight: 600;
+  color: white;
+}
+
+.financial-health .input input::placeholder {
+  color: white;
+}
+.financial-health .btn-div button {
+  margin: 0 20px 0 0;
+  padding: 10px 35px;
+  border: none;
+  border-radius: 3px;
+  font-weight: 600;
+  color: white;
+}
+.financial-health .btn-div{
+  margin: 20px 0 0 0;
+}
+.financial-health .btn-div .btn1 {
+  background: gray;
+}
+.financial-health .btn-div .btn2 {
+  background: #fb9500;
+}
+.btn-div .btn2{
+  height: 40px;
+}
+
+
+.financial-health .q1 .radio-container.container_malta{
+  background: #fb9500;
+  border: 1px solid #fb9500;
+}

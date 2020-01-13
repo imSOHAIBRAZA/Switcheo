@@ -1,0 +1,131 @@
+.Main-Container {
+  justify-content: center;
+}
+
+.Container {
+  /* background-color: red; */
+  position: relative;
+  display: block;
+}
+.InnerContainer {
+  background-color: rgb(250, 250, 250);
+ 
+  margin: 20px 25px 0px 0px;
+  -webkit-box-shadow: 4px 8px 20px 10px rgba(230,230,230,1);
+  -moz-box-shadow: 4px 4px 8px 20px rgba(230,230,230,1);
+  box-shadow: 4px 4px 14px 8px rgba(230,230,230,1);
+  
+  /* height: 30vh; */
+  border-radius: 20px;
+  text-align: center;
+  height: auto;
+}
+.imageStyle {
+  width: 60%;
+  margin: 50px 0px 30px 0px;
+}
+
+#num {
+  background-color: #fb9500;
+
+  color: white;
+  height: auto;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px !important;
+
+}
+#num p {
+  color: white;
+  display: inline;
+}
+.SecondInnerContainer {
+  background-color: rgb(250, 250, 250);
+  box-shadow: rgb(216, 205, 205) 3px;
+  /* height: 55vh; */
+  border-radius: 30px;
+  padding: 20px;
+  margin: 20px 25px 0px 0px;
+  justify-content: center;
+  border-radius: 20px;
+  -webkit-box-shadow: 4px 8px 20px 10px rgba(230,230,230,1);
+-moz-box-shadow: 4px 4px 8px 20px rgba(230,230,230,1);
+box-shadow: 4px 4px 14px 8px rgba(230,230,230,1);
+}
+.handelButtonStyle {
+  background-color: #fb9500;
+  color: white;
+  width: 50%;
+}
+.handelButtonStyle:hover{
+  background-color: #fb9500 !important;
+  color: white;
+
+}
+.react-calendar__navigation {
+  background-color: #fb9500 !important;
+  color: white;
+  font-weight: bold;
+}
+.react-calendar__month-view__weekdays {
+  background: #62635d;
+  color: white;
+}
+.react-calendar button {
+  background: #999999;
+}
+.react-calendar {
+  border: none !important;
+}
+.cal-text{
+  margin: 12px 12px;
+  width: 60%;
+  text-align: center;
+  font-size: 12px;
+}
+.cal-tx-bn{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.react-calendar__month-view__days .react-calendar button {
+border: 1px solid rgb(216, 205, 205) !important;
+box-sizing: border-box;
+}
+
+.react-calendar__viewContainer{
+  position: relative;
+  top: -14px;
+  box-sizing: border-box;
+  height: 227px;
+}
+
+.react-calendar__viewContainer button{
+  border: .2px solid rgb(216, 205, 205) !important;
+  color: black !important;
+}
+.react-calendar__viewContainer button:hover, .react-calendar__navigation button:hover{
+  border: 0px;
+  background-color:  #fb9500 !important;
+  color: white !important;
+
+}
+
+
+.react-calendar__viewContainer button:active{
+  border: 0px;
+  background-color:  #fb9500 !important;
+  color: white !important;
+
+}
+
+.react-calendar__tile--active:enabled:focus {
+  background:  #fb9500 !important;
+  color: white !important;
+
+}
+
+
+
+ 

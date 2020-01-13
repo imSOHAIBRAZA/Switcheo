@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+.chat-container{
+  width: 100%;
+  margin: 0 10px 0 0;
+  padding: 10px;
+  text-align: left;
+  font-family: Montserrat;
+  height: 550px;
+  overflow-y: scroll;
+}
+.chat-section{
+  border-radius: 10px;
+  margin: 0 20px;
+  box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.05);
+  padding: 10px;
+}
+
+.chat-container::-webkit-scrollbar {
+  width: 1.3em;
+  /* border-radius: 10px; */
+}
+
+.chat-container::-webkit-scrollbar-track {
+  border-radius: 20px;
+  /* border-top-right-radius: 25px;
+  border-top-left-radius: 19px; */
+
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+.chat-container::-webkit-scrollbar-thumb {
+background-color: darkgrey;
+border-radius: 20px;
+
+
+outline: 1px solid slategrey;
+}
+
+
+/* .chat-container::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+	border-radius: 10px;
+	 background: #cccccc;
+}
+.chat-container::-webkit-scrollbar
+{
+	width: 20px;
+	background-color: #F5F5F5;
+}
+
+.chat-container::-webkit-scrollbar-thumb
+{
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px #62635d;
+	background-color: #555;
+} */
+
+.chat-container .chat-box{
+  margin: 15px 0;
+}
+.clear{
+  clear:both;
+}
+.chat-container .chat-main{
+  width: 95%;
+  border-radius: 10px;
+  background: #62635d;
+  padding: 10px 0 5px 0;
+  position: relative;
+  z-index: 2;
+}
+.chat-container .chat-component-logo{
+  width: 45px;
+  height: 45px;
+  margin: 0px 12px;
+}
+.chat-container .chat-component-logo img{
+  width: 100%;
+  height: 100%;
+}
+.chat-container .chat-right{
+color: white;
+}
+.chat-right.welcome-div{
+  margin: -10px 0 0 0;
+}
+.chat-right .chat-top-p{
+font-size: 15px;
+font-weight: 600;
+letter-spacing: 0.5px;
+margin: 5px 0 0 0;
+line-height: 15px;
+}
+.switch_time{
+  width: 100%;
+  float: left;
+  position: relative;
+  padding: 0 50px 0 0;
+}
+.chat-right .ellipses-icon-div{
+  float: left;
+  position: absolute;
+  right: 15px;
+  top: 0;
+  width: 40px;
+  padding: 0 4px 0 10px;
+
+}
+.chat-right .ellipses-icon-div i{
+font-size: 24px;
+font-weight: 900;
+cursor: pointer;
+padding: 0 5px 5px 5px;
+}
+.chat-right .ellipses-icon-div i:active{
+  font-size: 26px !important;
+  font-weight: 900;
+  }
+.chat-right .chat-top-p strong{
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: underline;
+  margin: 0 12px 0 0;
+  color:#fb9500;
+}
+.chat-right .chat-time-p{
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 2px 0 0 0;
+}
+.chat-right .welcome-heading{
+  color: white;
+  font-size: 28px;
+  margin: 0 0 0 0;
+  font-weight: 500;
+}
+
+.chat-right .welcome-paragraph{
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0;
+  width: 85%;
+}
+.chat-right .chat-icons-div{
+  width: 100%;
+}
+.chat-right .chat-icons-div .reply{
+  color: #fb9500;
+  font-size: 13px;
+  margin: 0;
+  font-weight: 500;
+  display: block;
+  cursor: pointer;
+  width: 100px;
+  height: 20px;
+  float: left;
+
+}
+.chat-right .chat-icons-div .reply:active{
+  font-size: 14px;
+}
+.chat-right .chat-icons-div .reply-counts{
+  color: #fb9500;
+  font-size: 13px;
+  margin: 0;
+  font-weight: 500;
+  display: block;
+  cursor: pointer;
+  width: 100px; 
+  height: 20px;
+  float: right;
+  padding: 0 0 0 15px;
+  position: relative;
+}
+.chat-right .chat-icons-div .reply-counts i{
+  font-size: 20px;
+  position: absolute;
+  left: -2px;
+    top: 1px;
+}
+.chat-right .chat-icons-div .reply-counts:active{
+  font-size: 14px;
+}
+.chat-right .chat-icons-div .reply-counts:active i{
+  font-size: 21px;
+}
+.chat-container .chat-replies{
+  background: #cccccc;
+  width: 84%;
+  margin:0 0 0 3.6%;
+  /* padding: 10px 0; */
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  /* height: 20px; */
+}
+.chat-container .chat-component-reply-logo{
+  width: 45px;
+  height: 45px;
+  float: right;
+  margin: 0px 12px;
+}
+.chat-container .chat-component-reply-logo img{
+  width: 100%;
+  height: 100%;
+}
+.chat-right .switch_time-replies{
+  width: 100%;
+  float: left;
+}
+.chat-right .reply-text{
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0;
+  width: 100%;
+}
+.chat-container .divider{
+  margin: 5px 20px 5px 30px;
+  border: 0.5px solid #666666;
+  background: #1e0909;
+  /* height: 1px; */
+}
+.chat-container .ant-collapse{
+  border: none;
+  z-index: 1;
+}
+.ant-collapse > .ant-collapse-item {
+  border-bottom: none;
+}
+.chat-container .ant-collapse-header{
+  display: none;
+}
+
+.chat-container .ant-collapse-content{
+  background: #cccccc;
+  border-bottom-left-radius: 10px !important;
+  border-bottom-right-radius: 10px !important;
+  border: none !important;
+  /* background: ; */
+}
+.chat-container .ant-collapse{
+  margin: -2px 0 0 0;
+}
+
+
+.chat-container .reply-tool-box{
+  height: 40px;
+  background: #fb9500;
+  margin: 15px 15px 0 0;
+  border-radius: 17px;
+}
+.chat-container .reply-tool-box .attach-icon{
+width: 40px;
+height: 40px;
+margin: 0 0 0 15px;
+padding:10px 10px;
+border-radius: 50%;
+float: left;
+}
+.chat-container .reply-tool-box .attach-icon:active{
+  background: rgba(255, 255, 255, 0.2);
+}
+.chat-container .reply-tool-box .attach-icon i{
+  color: white;
+  font-size: 20px;
+}
+.chat-container .reply-tool-box .chat-tools{
+  width: 40px;
+  height: 40px;
+  margin: 0 0 0 2px;
+  padding:10px 10px;
+  border-radius: 50%;
+  float: left;
+  }
+  .microphone.chat-tools{
+    padding:10px 13px !important;
+  }
+  .chat-container .reply-tool-box .chat-tools:active{
+    background: rgba(255, 255, 255, 0.2);
+  }
+  .chat-container .reply-tool-box .chat-tools i{
+    color: white;
+    font-size: 20px;
+  }
+.chat-container .reply-tool-box .reply-text-input{
+width: 250px;
+height: 40px;
+float: left;
+}
+.chat-container .reply-tool-box .reply-text-input input{
+  margin: 0;
+  width: 100%;
+  height: 40px;
+  background: #fb9500;
+  border: none;
+  outline: none;
+  color: white;
+  letter-spacing: 0.8px;
+  font-weight: 500;
+}
+.chat-container .reply-tool-box .reply-text-input input::placeholder{
+  color: white;
+  letter-spacing: 0.8px;
+  font-weight: 500;
+}
+
+@media (max-width:576px){
+  .chat-container .chat-main{
+    width: 100%;
+    
+  }
+  
+}

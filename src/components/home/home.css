@@ -1,0 +1,11 @@
+.leftbar-container {
+  background: #fb9500;
+  min-height: 100vh;
+  height: auto;
+  margin: 0 10px 0 0;
+}
+.rightbar-container {
+  background: white;
+  min-height: 88vh;
+  margin: 0 0 0 10px;
+}

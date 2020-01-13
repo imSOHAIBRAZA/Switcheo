@@ -1,0 +1,97 @@
+.Signup-Container {
+  /* background-color: #fb9500; */
+  width: 100%;
+  height: 100vh;
+  background-color: #fb9500 !important;  
+}
+
+.innnerContainer {
+  /* width: 50%; */
+  background-color: white;
+  border-radius: 10px;
+  height: 95vh;
+margin-top: 3%;
+height: auto;
+  text-align: center;
+
+}
+
+.logoStyle {
+  margin: 30px 0px 5px 0px;
+ 
+}
+.logoStyle .img{
+  width: 250px;
+  
+}
+
+.signup input,
+.signup textarea,
+.signup .inputStyle {
+  background-color: #fb9500 !important;
+  border-radius: 100px !important;
+  height: 45px;
+  margin: 10px 0px 10px 0px;
+  text-indent: 15px;
+   
+}
+.formControl {
+  position: absolute;
+  text-align: center;
+  
+}
+.signup input::placeholder {
+  
+  color: red;
+}
+.handelCheckBoxes{
+  
+  float: left;
+  margin: 0px 0px 0px 0px;
+}
+.handelButtonStyle{
+  background-color:  #fb9500;
+  color: white;
+  width: 50%;
+  
+}
+.handelButtonRegisterStyle{
+  background-color: #62635d;
+  color: white;
+  width: 50%;
+}
+
+.signup input::placeholder, .signup input[type=text],.signup input[type=email] , .signup input[type=password]{
+  color: white !important; 
+  display: flex;
+  align-items: center;
+}
+
+.signup svg{
+  color: white !important;
+}
+
+.handelButtonStyle.regiterButton:hover{
+  background-color:  #fb9500;
+  color: white;
+  width: 50%;
+
+}
+
+
+.signup input[type=email] , .signup input[type=password]{
+  margin: 0px;
+}
+  .signup input[type=email] {
+      margin-top: 10px;
+  }
+
+  .signup input[name=phone] {
+    margin-top: 0px;
+}
+
+.notnowBtn{
+  position: relative;
+  top:100px;
+  cursor: pointer;
+}

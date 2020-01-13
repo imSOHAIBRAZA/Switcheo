@@ -1,0 +1,82 @@
+.logo {
+  padding: 20px 20px 20px 20px;
+  margin: 0 auto;
+  width: 240px;
+}
+.logo img {
+  width: 100%;
+}
+.leftbar-menu {
+  background: #fb9500;
+  margin: 20px 0 0 0;
+  width: 256px;
+  float: right;
+}
+.leftbar-menu li {
+  border: 7px solid rgba(255, 255, 255, 0.5);
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  font-weight: 500;
+  padding: 0 0 0 13px !important;
+  font-size: 17px !important;
+  height: 54px !important;
+  margin: 0 0 0 0 !important;
+  color: rgba(255, 255, 255, 0.5);
+  text-overflow: unset !important;
+}
+.leftbar-menu li:hover {
+  border: 7px solid rgba(255, 255, 255, 0.5);
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  font-weight: 500;
+  padding: 0 0 0 13px !important;
+  font-size: 17px !important;
+  height: 54px !important;
+  margin: 0 0 0 0 !important;
+  color: rgba(255, 255, 255, 0.5);
+  text-overflow: unset !important;
+}
+.leftbar-menu li p {
+  display: inline;
+  padding: 0 0 0 3px;
+}
+.leftbar-menu li.lb {
+  line-height: 0 !important;
+}
+.leftbar-menu li.lb p.lb {
+  line-height: 19px !important;
+}
+
+.leftbar-menu li.ant-menu-item-selected {
+  background: white !important;
+  border: 7px solid rgba(255, 255, 255, 0.7) !important;
+
+  color: black;
+}
+.leftbar-menu li.ant-menu-item-selected::after {
+  opacity: 0;
+}
+.leftbar-menu li .menu-icon {
+  width: 35px;
+  height: 35px;
+  float: left;
+  display: inline-block;
+  padding: 4px;
+  margin: 2px;
+  line-height: 0;
+  border-radius: 50%;
+  background: #fb9500;
+}
+.leftbar-menu li .menu-icon img {
+  width: 100%;
+  height: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.leftbar-menu .connector {
+  width: 10px;
+  height: 12px;
+  background: rgba(255, 255, 255, 0.5);
+  display: block;
+  margin: 0 0 0 25px;
+}

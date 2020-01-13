@@ -1,0 +1,106 @@
+.Login-Container {
+  /* background-color: #fb9500; */
+  width: 100%;
+  height: 100vh;
+  background-image: url('../../assets/backLogin.jpg');
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: cover;
+}
+
+.Login-Container .innnerContainer {
+  width: 400px;
+  background-color: white;
+  border-radius: 10px;
+  height: 70vh;
+ 
+  text-align: center;
+  margin-top: 20%;
+  /* border: 1px solid black; */
+  box-shadow:  0 0 5px #bdbdbd;
+}
+
+.logoStyle {
+  margin: 10px 0px 10px 0px;
+  
+}
+.logoStyle .img{
+  width: 250px;
+  
+}
+.login input,
+.login textarea,
+.login .inputStyle .ant-input {
+  background-color: #fb9500 !important;
+  border-radius: 100px !important;
+  height: 50px;
+  margin: 10px 0px 10px 0px;
+  text-indent: 15px;
+  /* height: 40px;
+  padding: 20px;
+  margin: 10px 0px 10px 0px; */
+}
+/* .formControl {
+  position: absolute;
+  text-align: center;
+  
+} */
+/* .login input::placeholder {
+
+  color: red;
+} */
+ .handelCheckBoxes {
+  /* margin-left: 5%; */
+  /* float: left; */
+  margin-bottom: 25px !important;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  cursor: pointer;
+}
+ #handelButtonStyle {
+  background-color: #fb9500;
+  color: white;
+  width: 130px !important;
+  height: 40px;
+}
+ #handelButtonRegisterStyle {
+  background-color: #62635d;
+  width: 130px !important;
+  height: 40px;
+  margin-left: 20px ;
+  color: white;
+}
+
+.login input::placeholder,
+.login input[type="email"] ,.login input[type="Password"]{
+  color: white !important;
+  /* font-size: 1em; */
+  margin: 0px;
+}
+#bottom-text{
+margin-top: 50px;
+/* position: absolute; */
+}
+
+.login svg{
+  color: white !important;
+}
+
+.Login-Container{
+  overflow: hidden !important;
+  opacity: 1;
+  animation: fadein 1.5s linear  ;
+  /* animation-delay: 1s; */
+}
+@keyframes fadein {
+  0%{  opacity: 0;}
+  100%{
+    opacity: 1;
+  }
+}
+
+.asdfasdf{
+  position: relative;
+  top:300px
+}

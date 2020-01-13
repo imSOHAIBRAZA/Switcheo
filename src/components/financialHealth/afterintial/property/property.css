@@ -1,0 +1,236 @@
+.property_conpe{
+    padding-top: 30px;
+
+}
+.property_conpe {
+    min-height: 80vh;
+    margin: 20px 20px 20px 20px;
+    padding: 20px;
+    font-family: Montserrat;
+  }
+  .property_conpe .fh-row-gs .heading1 {
+    font-size: 26px;
+    color: #62635d;
+  }
+  .property_conpe .fh-row-gs .heading2 {
+    font-size: 16px;
+    color: #62635d;
+  }
+  .fh-row-gs .q1-ul {
+    list-style: none;
+    padding: 0;
+  }
+  .fh-row-gs .q1-ul li {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .property_conpe .q1 {
+    margin: 2px 0 10px 0;
+  } .property_conpe .q1 .radio-container {
+    width: 37%;
+    float: left;
+    margin: 0 70px 0 0;
+    cursor: pointer;
+    height: 40px;
+    background: #cccccc;
+    border-radius: 20px;
+    border: 2px solid gray;
+  }
+  
+  .selectPRo{
+    width: 37% !important;
+    float: left;
+    margin: 0 70px 0 0 ;
+    cursor: pointer;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid gray;
+   background: #cccccc !important ;
+   overflow: hidden;
+  }
+  .property_conpe .q1 .radio-container:last-child {
+    margin: 0 0 0 0;
+  }
+  .selectPRo .ant-select-selection{
+      border: 0 !important;
+      background: #cccccc;
+      color: white;
+      font-weight: 600;
+      font-size: 14px;
+
+  }
+  .selectPRo .ant-select-selection__placeholder{
+      color: white !important;
+  }
+  .property_conpe .q1 input[type="radio"]:checked,
+  .property_conpe .q1 input[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+  }
+  .property_conpe .q1 input[type="radio"]:checked + label,
+  .property_conpe .q1 input[type="radio"]:not(:checked) + label {
+    position: relative;
+    padding-left: 40px;
+    cursor: pointer;
+    line-height: 18px;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    color: white;
+    margin: 9px 0 0 30px;
+  }
+  
+  .property_conpe .q1 input[type="radio"]:checked + label:before,
+  .property_conpe .q1 input[type="radio"]:not(:checked) + label:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    border: 1px solid gray;
+    border-radius: 100%;
+    background: #fff;
+  }
+  .selectPRo .anticon{
+      font-weight: 600!important;
+      color: white !important;
+  }
+  .property_conpe .q1 input[type="radio"]:checked + label:after,
+  .property_conpe .q1 input[type="radio"]:not(:checked) + label:after {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background: gray;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+  }
+  
+  .property_conpe .q1 input[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  
+  .property_conpe .q1 input[type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  
+ 
+  .property_conpe  p.heading3 {
+    width: 65%;
+    font-size: 17px;
+    font-weight: 700;
+  }
+  .property_conpe .q3 .radio-container {
+    float: none;
+    width: 37%;
+    margin: 0 0 5px 0;
+  }
+  .property_conpe .note-col p.note {
+    background: #ffb759;
+    width: 58%;
+    font-size: 14px;
+    padding: 20px 30px 30px 20px;
+    font-size: 500;
+    border-radius: 10px;
+    color: white;
+  }
+  
+  .property_conpe .input {
+    margin: 0 0 10px 0;
+  }
+  .Stepermy{
+      margin-top: 20px;
+      border-bottom: 1px solid rgb(213, 213, 213); 
+      box-shadow: 0px -1px 0 0 rgb(213, 213, 213) inset;
+  
+  }
+  .property_conpe .input .input-lbl {
+    font-size: 17px;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+    color: #62635d;
+  }
+  .property_conpe .input input {
+    width: 37%;
+    height: 40px;
+    background: #cccccc;
+    border-radius: 20px;
+    border: 2px solid gray;
+    outline: none;
+    padding: 0 20px;
+    font-weight: 600;
+    color: white;
+  }
+  
+  .property_conpe .input input::placeholder {
+    color: white;
+  }
+  .property_conpe .btn-div button {
+    margin: 0 20px 0 0;
+    padding: 10px 35px;
+    border: none;
+    border-radius: 3px;
+    font-weight: 600;
+    color: white;
+  }
+  .property_conpe .btn-div{
+    margin: 20px 0 0 0;
+  }
+  .property_conpe .btn-div .btn1 {
+    background: gray;
+  }
+  .property_conpe .btn-div .btn2 {
+    background: #fb9500;
+  }
+  
+  .property_conpe .borderRed .ant-select-selection{
+    background-color: white !important;
+    color: gray;
+
+  }
+  .property_conpe .borderRed{
+    border: red solid 2px !important;
+
+  }
+  .borderRed .anticon ,.borderRed .ant-select-selection__placeholder{
+    font-weight: 600!important;
+    color: gray !important;
+  }
+  .property_conpe .maltaborder  input{
+  border:#fb9500 solid 2px !important;
+    background-color: white !important;
+    color: gray;
+  }
+
+  .property_conpe .maltaback .ant-select-selection{
+    background-color:#fb9500 !important;
+
+
+  }
+
+  .property_conpe .maltaback input{
+    background-color:#fb9500 !important;
+    border:#fb9500 solid 2px !important;
+
+    color: white;
+  }
+  .property_conpe .maltaback{
+    border:#fb9500 solid 0px !important;
+
+  }
+  .radio-container.container_malta{
+    background: #fb9500 !important;
+    border: 1px solid #fb9500 !important;
+  }
+  .activeNow{
+    border-bottom: 4px solid #fb9500 !important;
+
+  }

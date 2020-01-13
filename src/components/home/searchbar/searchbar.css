@@ -1,0 +1,104 @@
+.top-search-bar-div{
+  /* height: 50px; */
+  box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.05);
+  border-radius: 8px;
+  margin: 10px 20px 20px 20px;
+  /* background: gray; */
+  }
+.search-input{
+  /* width: 80%; */
+  padding: 0 0 0 30px;
+  height: 50px;
+  /* float: left; */
+}
+.search-input .input{
+  height: 50px;
+  float: left;
+  width: calc(100% - 100px);
+}
+.search-input .input input{
+  background: white;
+  border: none;
+  margin: 0;
+  float: left;
+  padding: 0 10px 0 0 ;
+  color: #62635d;
+  outline: none;
+  font-size: 16px;
+  letter-spacing: 0.1px;
+  font-weight: 500;
+  height: 50px;
+  width: 100%;
+}
+.search-input .input input::placeholder{
+  color: #62635d;
+}
+.search-input .search-icon{
+  width: 50px;
+  float: left;
+  height: 50px;
+  padding: 11px 11px;
+}
+.search-input .search-icon i{
+  font-size: 28px;
+}
+.top-search-bar-div .notification-icon{
+  /* width: 30px; */
+  height: 50px;
+  padding: 10px 20px;
+  text-align: center;
+}
+.top-search-bar-div .notification-icon img{
+  width:30px;
+  height: 30px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.top-search-bar-div .profile-dropdown{
+  height: 50px;
+  cursor: pointer;
+}
+.profile-dropdown .profile-pic{
+  width: 50px;
+  height: 50px;
+  padding: 2.5px 0;
+  display: inline-block;
+  float: left;
+}
+.profile-dropdown .profile-pic img{
+  width: 45px;
+  height: 45px;
+}
+.profile-dropdown .username{
+  font-size: 12px;
+  margin: 0;
+  padding: 5px 0 0 0;
+  font-weight: 500;
+  float: left;
+  width: calc(100% - 50px);
+  line-height: 16px;
+}
+.profile-dropdown .username p{
+  width: calc(100% - 30px);
+  margin: 0;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.profile-dropdown .username i{
+  margin: 0 0 0 2px;
+  font-size: 20px;
+  line-height: 20px;
+}
+.ant-dropdown-menu.dd-menu{
+  line-height: 20px;
+  margin: 0 20px 0 0 !important;
+}
+.ant-dropdown-menu.dd-menu .settings, .ant-dropdown-menu.dd-menu .logout{
+font-size: 24px;
+}
+.ant-dropdown-menu.dd-menu .text{
+  font-size: 20px;
+  padding: 0 10px;
+}

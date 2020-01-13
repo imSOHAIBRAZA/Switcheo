@@ -1,0 +1,146 @@
+/* only example specific CSS goes here - pls do not write any CSS that overwrite the ../css/main.css example css */
+/* 
+.languageButtons button {
+  margin: 5px;
+  border: 1px solid #5cb85c;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 25px;
+  background: #cccccc;
+} */
+
+ol.progtrckr {
+  margin-top: 9rem;
+    margin-left: 2rem;
+    /* padding-bottom: 1.2rem; */
+    list-style-type: none;
+  /* margin: 0;
+  padding-bottom: 2.2rem;
+  list-style-type: none; */
+}
+ol.progtrckr li {
+  display: inline-block;
+  text-align: center;
+  line-height: 4.5rem;
+  padding: 0 0.7rem;
+  cursor: pointer;
+}
+ol.progtrckr li span {
+  position: relative;
+  top:1em;
+  padding: 0 1.5rem;
+}
+@media (max-width: 650px) {
+  .progtrckr li span {
+    display: none;
+  }
+}
+.progtrckr em {
+  display: none;
+  font-weight: 700;
+  padding-left: 1rem;
+}
+@media (max-width: 650px) {
+  .progtrckr em {
+    display: inline;
+  }
+}
+
+ol.progtrckr li.progtrckr-todo {
+  font-size: 15px;
+  font-weight: bold;
+  color: silver;
+  border-top: 4px solid silver;
+}
+ol.progtrckr li.progtrckr-doing {
+  list-style-type: none;
+    
+    font-size: 15px;
+    font-weight: bold;
+  color: #FB9500;
+  border-top: 4px solid #FB9500;
+}
+ol.progtrckr li.progtrckr-done {
+  font-size: 15px;
+  font-weight: bold;
+color: #FB9500;
+border-top: 4px solid #FB9500;
+}
+ol.progtrckr li:after {
+  content: "\00a0\00a0";
+}
+ol.progtrckr li:before {
+  position: relative;
+  bottom: 2rem;
+  float: left;
+  left: 50%;
+}
+ol.progtrckr li.progtrckr-todo:before {
+  content: "\039F";
+  color: silver;
+  background-color: #999999;
+  /* background-color: white; */
+  width: 4.2em;
+  border-radius: 2.2em;
+    line-height: 4.2em;
+  /* width: 1.2em;
+  line-height: 1.4em; */
+}
+ol.progtrckr li.progtrckr-todo:hover:before {
+  color: #fb7400;
+}
+
+ol.progtrckr li.progtrckr-doing:before {
+  content: "\2022";
+  color: white;
+  background-color: #FB9500;
+  /* background-color: #FB9500; */
+  width: 4.2em;
+    line-height: 4.2em;
+    border-radius: 2.2em;
+  /* width: 1.2em;
+  line-height: 1.2em;
+  border-radius: 1.2em; */
+}
+ol.progtrckr li.progtrckr-doing:hover:before {
+  color: #fb7400;
+}
+
+ol.progtrckr li.progtrckr-done:before {
+  content: "\2713";
+  color: white;
+  background-color: #FB9500;
+  width: 4.2em;
+  line-height: 4.2em;
+  border-radius: 2.2em;
+}
+ol.progtrckr li.progtrckr-done:hover:before {
+  color: #fb7400;
+}
+
+.footer-buttons {
+  float: right;
+  margin: 0 14rem 3rem;
+}
+
+.footer-buttons .btn-prev{margin: 0 20px 0 0;
+  padding: 10px 35px;
+  border: none;
+  border-radius: 3px;
+  font-weight: 600;
+  color: white;
+  background: #fb9500;
+  padding-left: 29px;
+  height: 40px;
+}
+
+.footer-buttons .btn-next{
+  height: 40px;
+  background: gray;
+  margin: 0 20px 0 0;
+    padding: 10px 35px;
+    border: none;
+    border-radius: 3px;
+    font-weight: 600;
+    color: white;
+}

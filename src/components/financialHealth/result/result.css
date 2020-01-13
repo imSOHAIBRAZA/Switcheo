@@ -1,0 +1,106 @@
+.result-con {
+  margin: 20px 20px 40px 20px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.05);
+  /* padding: 0 0 10px 0; */
+  font-family: Montserrat;
+}
+.result-con .logo {
+  height: 125px;
+  width: 100%;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  text-align: center;
+  padding: 20px;
+  background: #fb9500;
+}
+.result-con .logo img {
+  width: 300px;
+  height: auto;
+  /* margin: 20px; */
+}
+.result-con .d1 {
+  width: 80%;
+  margin: 30px auto 0 auto;
+}
+.result-con .d1 h1 {
+  font-size: 28px;
+  padding: 0 16px;
+  font-weight: 700;
+  color: rgb(88, 88, 88);
+  text-align: center;
+}
+.result-con .d1 .p1 {
+  font-size: 17px;
+  padding: 0 16px;
+  font-weight: 500;
+  color: rgb(88, 88, 88);
+}
+.result-con .d1 .amount-div {
+  height: 130px;
+  padding: 40px 0 0 0;
+  width: 95%;
+  margin: 0;
+  float: right;
+  border-radius: 10px;
+  background: #fb9500;
+}
+.result-con .d1 .amount-div h1 {
+  font-size: 3rem;
+  margin: 0;
+  text-align: center;
+  color: white;
+  padding: 0;
+  overflow: hidden;
+  line-height: 1;
+}
+.result-con .d1 .amount-div p {
+  color: white;
+  text-align: right;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 5px 60px 0 25px;
+}
+.result-con .d1 .meter-div {
+  height: 130px;
+  text-align: right;
+  width: 100%;
+  border-radius: 10px;
+}
+.result-con .d1 .meter-div img {
+  width: 65%;
+  max-width: 100%;
+  margin: 0 10px 0 0;
+}
+.result-con .d1 .p2 {
+  font-size: 15px;
+  padding: 0 15px;
+  margin: 20px 0 5px 0;
+  font-weight: 500;
+  color: rgb(88, 88, 88);
+}
+.result-con .d1 .p2 em {
+  text-decoration: underline;
+  font-style: normal;
+}
+.result-con .warning-div .w5 {
+  color: white;
+  background: #fb9500;
+  font-size: 12px;
+  padding: 3px 0;
+  text-align: center;
+  margin: 40px 0 0 0;
+}
+.result-con .warning-div .warnings {
+  background: gray;
+  padding: 1px 0 20px 0;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+.result-con .warning-div .warnings p {
+  width: 70%;
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  margin: 20px auto;
+}
